@@ -19,6 +19,7 @@
 		9BACF91618CA289B0009F397 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BACF8FE18CA289B0009F397 /* UIKit.framework */; };
 		9BACF91E18CA289B0009F397 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BACF91C18CA289B0009F397 /* InfoPlist.strings */; };
 		9BACF92018CA289B0009F397 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BACF91F18CA289B0009F397 /* ToDoListTests.m */; };
+		9BACF92A18CA2F4D0009F397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BACF92918CA2F4D0009F397 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		9BACF91B18CA289B0009F397 /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		9BACF91D18CA289B0009F397 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BACF91F18CA289B0009F397 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		9BACF92918CA2F4D0009F397 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				9BACF90918CA289B0009F397 /* DAYAppDelegate.h */,
 				9BACF90A18CA289B0009F397 /* DAYAppDelegate.m */,
+				9BACF92918CA2F4D0009F397 /* Main.storyboard */,
 				9BACF90C18CA289B0009F397 /* Images.xcassets */,
 				9BACF90118CA289B0009F397 /* Supporting Files */,
 			);
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BACF92A18CA2F4D0009F397 /* Main.storyboard in Resources */,
 				9BACF90518CA289B0009F397 /* InfoPlist.strings in Resources */,
 				9BACF90D18CA289B0009F397 /* Images.xcassets in Resources */,
 			);
